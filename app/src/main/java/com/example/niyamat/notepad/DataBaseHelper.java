@@ -25,10 +25,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String CREATE_TABLE = "CREATE TABLE" + TABLE_NAME + "("
-                + NOTE_ID + "INTEGER PRIMARY KEY ,"
-                + NOTE_TITLE + "VARCHAR,"
-                + NOTE_BODY + "VARCHAR" + ")";
+        String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + " ("
+                + NOTE_ID + " INTEGER PRIMARY KEY, "
+                + NOTE_TITLE + " VARCHAR, "
+                + NOTE_BODY + " VARCHAR" + ")";
         db.execSQL(CREATE_TABLE);
     }
 
