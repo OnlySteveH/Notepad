@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_note_taking">NoteTakingActivity</string>
+    <string name="hint_note_title">Enter your note title</string>
+    <string name="memory_error">There is a problem accessing your memory</string>
+    <string name="empty_text">There is no text.Click + button to start</string>
+    <string name="empty_edit_text">Add Both Fields</string>
+    <string name="example_note_title">How to make cheaps for someone special</string>
+</resources>
